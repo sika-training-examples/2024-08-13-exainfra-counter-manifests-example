@@ -4,7 +4,7 @@ metadata:
   name: backend
 spec:
   revisionHistoryLimit: 0
-  replicas: 4
+  replicas: 6
   selector:
     matchLabels:
       app: backend
@@ -20,7 +20,7 @@ spec:
             - name: REDIS
               value: redis
             - name: SLOW_START
-              value: '15'
+              value: '3'
           ports:
             - name: http
               containerPort: 80

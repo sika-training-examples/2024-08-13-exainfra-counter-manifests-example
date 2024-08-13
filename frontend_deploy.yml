@@ -20,7 +20,7 @@ spec:
             - name: API_ORIGIN
               value: http://backend
             - name: FONT_COLOR
-              value: 'white'
+              value: 'green'
             - name: BACKGROUND_COLOR
               value: '#3A5D87'
           ports:
